@@ -24,7 +24,7 @@ const Contact = () => {
 
     // EmailJS credentials provided by user
     const serviceId = 'service_mv4j3sk';
-    const templateId = 'template_k9drnP1b'; // Verify this in your EmailJS dashboard
+    const templateId = 'template_km4rsag'; // Updated with user provided ID
     const publicKey = 'k9drnP1b-3o_lofXn';
 
     emailjs.sendForm(
