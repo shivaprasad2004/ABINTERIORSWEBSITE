@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: ['jelsoft-administrators-custody-snapshot.trycloudflare.com']
+    allowedHosts: ['jelsoft-administrators-custody-snapshot.trycloudflare.com', '.render.com']
+  },
+  build: {
+    outDir: 'dist',
   }
 })
