@@ -31,7 +31,7 @@ const Services = () => {
     {
       icon: <Grid className="w-8 h-8" />,
       title: "Bedroom Design",
-      image: "https://images.unsplash.com/photo-1617325252245-0c8425f923d6?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1616594039964-40891a909d99?q=80&w=800&auto=format&fit=crop",
       description: "Comfortable bedrooms with practical storage and serene aesthetics.",
       points: [
         "Walk‑in wardrobes with lofts",

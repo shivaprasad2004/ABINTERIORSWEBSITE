@@ -84,8 +84,8 @@ const TiltCard = ({ project, index }) => {
 const Portfolio = () => {
   const projects = [
     { id: 1, category: "Bedroom", img: "https://images.unsplash.com/photo-1616594039964-40891a909d99?q=80&w=800&auto=format&fit=crop", title: "Serene Master Bedroom" },
-    { id: 2, category: "Living", img: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop", title: "Modern Living Room" },
-    { id: 3, category: "Kitchen", img: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=800&auto=format&fit=crop", title: "Minimalist Kitchen" },
+    { id: 2, category: "Living", img: "https://images.unsplash.com/photo-1618219740975-d429804e8546?q=80&w=800&auto=format&fit=crop", title: "Modern Living Room" },
+    { id: 3, category: "Kitchen", img: "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=800&auto=format&fit=crop", title: "Minimalist Kitchen" },
   ];
 
   return (

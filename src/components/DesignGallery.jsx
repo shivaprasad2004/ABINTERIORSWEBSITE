@@ -32,13 +32,13 @@ const DesignGallery = () => {
         {
           title: 'Master Bedroom Suite',
           sub: 'Contemporary Style',
-          img: 'https://images.unsplash.com/photo-1617325252245-0c8425f923d6?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1616594039964-40891a909d99?q=80&w=800&auto=format&fit=crop',
           points: ['Walk‑in wardrobe with loft', 'Study or dressing area', 'Window seating or balcony'],
         },
         {
           title: 'Kids Bedroom Design',
           sub: 'Playful Style',
-          img: 'https://images.unsplash.com/photo-1551443874-325372436d65?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop',
           points: ['Study desk', 'Play and storage zones', 'Safety finishes and edges'],
         },
         {
@@ -55,7 +55,7 @@ const DesignGallery = () => {
         {
           title: 'Modern Minimalist',
           sub: 'Clean Lines Theme',
-          img: 'https://images.unsplash.com/photo-1618219740975-d429804e8546?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop',
           points: ['Neutral palette', 'Smart storage', 'Ambient lighting'],
         },
         {
@@ -84,7 +84,7 @@ const DesignGallery = () => {
         {
           title: 'Traditional Wooden Mandir',
           sub: 'Sacred Tradition',
-          img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=800&auto=format&fit=crop',
           points: ['Teak wood craftsmanship', 'Intricate carvings', 'Storage for puja essentials'],
         },
         {

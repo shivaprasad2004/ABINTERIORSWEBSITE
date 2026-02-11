@@ -24,8 +24,8 @@ const About = () => {
           >
             <div className="aspect-[4/5] bg-neutral-200 rounded-lg overflow-hidden relative">
                <img 
-                 src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800&auto=format&fit=crop" 
-                 alt="Luxury Interior" 
+                 src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?q=80&w=800&auto=format&fit=crop" 
+                 alt="Luxury Interior Design Hyderabad" 
                  className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                />
             </div>

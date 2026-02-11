@@ -73,7 +73,7 @@ const Hero = () => {
                className="absolute inset-0 bg-neutral-900 rounded-lg overflow-hidden border border-white/10 shadow-2xl transform-style-3d"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-black/60 to-transparent z-10"></div>
-              <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-60"></div>
+              <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-60"></div>
             </motion.div>
             
             {/* Floating 3D Card */}

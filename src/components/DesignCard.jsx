@@ -8,7 +8,7 @@ const DesignCard = ({ title, category, images }) => {
   const prev = () => setIndex((index - 1 + images.length) % images.length);
 
   const fallback =
-    'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800&auto=format&fit=crop';
+    'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=800&auto=format&fit=crop';
 
   return (
     <div className="group relative overflow-hidden rounded-lg shadow-md border border-neutral-200 bg-white">
