@@ -46,6 +46,7 @@ const Contact = () => {
         from_email: formData.email,
         message: formData.message,
         to_name: 'AB Interiors Team',
+        to_email: 'abinteriors9@gmail.com', // Explicitly adding recipient email
         reply_to: formData.email,
       }
     ).then(
