@@ -30,6 +30,13 @@ const Contact = () => {
     // Initialize EmailJS
     emailjs.init(publicKey);
 
+    console.log('Attempting to send email with:', {
+      serviceId,
+      templateId,
+      publicKey,
+      formData
+    });
+
     // Using send instead of sendForm for more control in React
     emailjs.send(
       serviceId,
