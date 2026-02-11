@@ -118,13 +118,16 @@ const Portfolio = () => {
         </div>
         
         <div className="text-center mt-16">
-          <motion.button 
+          <motion.a 
+            href="https://abinteriors.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 bg-brand-dark text-white font-medium hover:bg-brand-orange transition-colors duration-300 rounded-sm shadow-lg"
+            className="inline-block px-8 py-4 bg-brand-dark text-white font-medium hover:bg-brand-orange transition-colors duration-300 rounded-sm shadow-lg"
           >
             View Full Portfolio
-          </motion.button>
+          </motion.a>
         </div>
       </div>
     </section>
