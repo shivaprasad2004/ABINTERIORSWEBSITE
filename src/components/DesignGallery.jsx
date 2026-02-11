@@ -72,6 +72,29 @@ const DesignGallery = () => {
         },
       ],
     },
+    {
+      heading: 'Pooja Unit Designs',
+      items: [
+        {
+          title: 'Modern Marble Pooja Mandir',
+          sub: 'Divine Luxury',
+          img: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop',
+          points: ['Backlit CNC jali design', 'Premium marble finish', 'Soft focus warm lighting'],
+        },
+        {
+          title: 'Traditional Wooden Mandir',
+          sub: 'Sacred Tradition',
+          img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop',
+          points: ['Teak wood craftsmanship', 'Intricate carvings', 'Storage for puja essentials'],
+        },
+        {
+          title: 'Wall-Mounted Compact Mandir',
+          sub: 'Space Efficient',
+          img: 'https://images.unsplash.com/photo-1600585154340-be6199f7a009?q=80&w=800&auto=format&fit=crop',
+          points: ['Minimalist design', 'Glass door protection', 'Inbuilt drawer'],
+        },
+      ],
+    },
   ];
 
   return (
