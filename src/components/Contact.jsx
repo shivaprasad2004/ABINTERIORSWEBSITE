@@ -22,16 +22,25 @@ const Contact = () => {
 
     setStatus('loading');
 
-    // EmailJS credentials provided by user
+    // EmailJS credentials
     const serviceId = 'service_mv4j3sk';
-    const templateId = 'template_km4rsag'; // Updated with user provided ID
+    const templateId = 'template_km4rsag';
     const publicKey = 'k9drnP1b-3o_lofXn';
 
-    emailjs.sendForm(
+    // Initialize EmailJS
+    emailjs.init(publicKey);
+
+    // Using send instead of sendForm for more control in React
+    emailjs.send(
       serviceId,
       templateId,
-      formRef.current,
-      publicKey
+      {
+        from_name: formData.name,
+        from_email: formData.email,
+        message: formData.message,
+        to_name: 'AB Interiors Team',
+        reply_to: formData.email,
+      }
     ).then(
       (result) => {
         console.log('EmailJS Success:', result.text);
@@ -42,6 +51,9 @@ const Contact = () => {
       (error) => {
         console.error('EmailJS Error Details:', error);
         setStatus('error');
+        // If the error is an object, try to stringify it for the UI
+        const errorMsg = error?.text || error?.message || 'Check console for details';
+        alert(`Failed to send: ${errorMsg}`);
         setTimeout(() => setStatus('idle'), 5000);
       }
     );
