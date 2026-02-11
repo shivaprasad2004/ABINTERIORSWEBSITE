@@ -15,7 +15,7 @@ const DesignGallery = () => {
         {
           title: 'Traditional U‑Shaped Kitchen',
           sub: 'Cultural Style',
-          img: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=800&auto=format&fit=crop',
           points: ['Solid‑wood look finishes', 'Granite top', 'Deep drawers and spice pull‑outs'],
         },
         {
@@ -32,19 +32,19 @@ const DesignGallery = () => {
         {
           title: 'Master Bedroom Suite',
           sub: 'Contemporary Style',
-          img: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1617325252245-0c8425f923d6?q=80&w=800&auto=format&fit=crop',
           points: ['Walk‑in wardrobe with loft', 'Study or dressing area', 'Window seating or balcony'],
         },
         {
           title: 'Kids Bedroom Design',
           sub: 'Playful Style',
-          img: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1551443874-325372436d65?q=80&w=800&auto=format&fit=crop',
           points: ['Study desk', 'Play and storage zones', 'Safety finishes and edges'],
         },
         {
           title: 'Guest Bedroom',
           sub: 'Elegant Style',
-          img: 'https://images.unsplash.com/photo-1560185127-6ed189bf02f4?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=800&auto=format&fit=crop',
           points: ['Compact layout', 'Storage bed', 'Reading nook with lighting'],
         },
       ],
@@ -55,7 +55,7 @@ const DesignGallery = () => {
         {
           title: 'Modern Minimalist',
           sub: 'Clean Lines Theme',
-          img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1618219740975-d429804e8546?q=80&w=800&auto=format&fit=crop',
           points: ['Neutral palette', 'Smart storage', 'Ambient lighting'],
         },
         {
@@ -78,19 +78,19 @@ const DesignGallery = () => {
         {
           title: 'Modern Marble Pooja Mandir',
           sub: 'Divine Luxury',
-          img: 'https://images.unsplash.com/photo-1590073844006-33379778ae09?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=800&auto=format&fit=crop',
           points: ['Backlit CNC jali design', 'Premium marble finish', 'Soft focus warm lighting'],
         },
         {
           title: 'Traditional Wooden Mandir',
           sub: 'Sacred Tradition',
-          img: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop',
           points: ['Teak wood craftsmanship', 'Intricate carvings', 'Storage for puja essentials'],
         },
         {
           title: 'Wall-Mounted Compact Mandir',
           sub: 'Space Efficient',
-          img: 'https://images.unsplash.com/photo-1544450173-8c8797913cf9?q=80&w=800&auto=format&fit=crop',
+          img: 'https://images.unsplash.com/photo-1615873966503-490333d4f82a?q=80&w=800&auto=format&fit=crop',
           points: ['Minimalist design', 'Glass door protection', 'Inbuilt drawer'],
         },
       ],

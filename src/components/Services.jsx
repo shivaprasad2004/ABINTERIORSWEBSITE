@@ -7,7 +7,7 @@ const Services = () => {
     {
       icon: <Home className="w-8 h-8" />,
       title: "Complete Home Interiors",
-      image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=800&auto=format&fit=crop",
       description: "End‑to‑end interiors crafted for Hyderabad homes with a warm, South Indian touch.",
       points: [
         "3D design and Vaastu‑friendly space planning",
@@ -19,7 +19,7 @@ const Services = () => {
     {
       icon: <Layout className="w-8 h-8" />,
       title: "Modular Kitchens",
-      image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=800&auto=format&fit=crop",
       description: "Efficient, long‑lasting kitchens designed for everyday Indian cooking.",
       points: [
         "Branded hardware with soft‑close channels",
@@ -31,7 +31,7 @@ const Services = () => {
     {
       icon: <Grid className="w-8 h-8" />,
       title: "Bedroom Design",
-      image: "https://images.unsplash.com/photo-1616594039964-40891a909d99?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1617325252245-0c8425f923d6?q=80&w=800&auto=format&fit=crop",
       description: "Comfortable bedrooms with practical storage and serene aesthetics.",
       points: [
         "Walk‑in wardrobes with lofts",
@@ -43,7 +43,7 @@ const Services = () => {
     {
       icon: <Sofa className="w-8 h-8" />,
       title: "Living Room Design",
-      image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1618219740975-d429804e8546?q=80&w=800&auto=format&fit=crop",
       description: "Elegant halls that reflect South Indian hospitality and lifestyle.",
       points: [
         "Entertainment units and seating layouts",
@@ -55,7 +55,7 @@ const Services = () => {
     {
       icon: <Lightbulb className="w-8 h-8" />,
       title: "TV Unit Design",
-      image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?q=80&w=800&auto=format&fit=crop",
       description: "Functional TV walls with clean lines and ample storage.",
       points: [
         "Wall‑mounted and floating units",
@@ -67,7 +67,7 @@ const Services = () => {
     {
       icon: <Hammer className="w-8 h-8" />,
       title: "Pooja Unit Design",
-      image: "https://images.unsplash.com/photo-1620712943543-168804359395?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=800&auto=format&fit=crop",
       description: "Serene mandirs crafted for traditional values with modern detailing.",
       points: [
         "CNC jaali and classic motifs",
