@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Stats from './components/Stats';
@@ -16,7 +16,7 @@ import CategoryStrip from './components/CategoryStrip';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-neutral-50 font-sans text-brand-dark">
         <Navbar />
         <main>
@@ -50,7 +50,7 @@ function App() {
         <Footer />
         <FloatingButtons />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
