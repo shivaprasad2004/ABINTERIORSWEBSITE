@@ -24,29 +24,23 @@ const Contact = () => {
 
     // EmailJS credentials provided by user
     const serviceId = 'service_mv4j3sk';
-    const templateId = 'template_default'; // Assuming default template or the one associated with the account
+    const templateId = 'template_k9drnP1b'; // Verify this in your EmailJS dashboard
     const publicKey = 'k9drnP1b-3o_lofXn';
 
-    // Using the form direct integration or send call
-    emailjs.send(
+    emailjs.sendForm(
       serviceId,
-      'template_k9drnP1b', // Typically template IDs look like this, but if not known, we use the variables
-      {
-        from_name: formData.name,
-        from_email: formData.email,
-        message: formData.message,
-        to_name: 'AB Interiors Team',
-        title: `New Inquiry from ${formData.name}`,
-      },
+      templateId,
+      formRef.current,
       publicKey
     ).then(
-      () => {
+      (result) => {
+        console.log('EmailJS Success:', result.text);
         setStatus('success');
         setFormData({ name: '', email: '', message: '' });
         setTimeout(() => setStatus('idle'), 5000);
       },
       (error) => {
-        console.error('EmailJS Error:', error);
+        console.error('EmailJS Error Details:', error);
         setStatus('error');
         setTimeout(() => setStatus('idle'), 5000);
       }
@@ -83,6 +77,7 @@ const Contact = () => {
                   <input 
                     type="text" 
                     id="name" 
+                    name="from_name"
                     required
                     value={formData.name}
                     onChange={handleChange}
@@ -95,6 +90,7 @@ const Contact = () => {
                   <input 
                     type="email" 
                     id="email" 
+                    name="from_email"
                     required
                     value={formData.email}
                     onChange={handleChange}
@@ -106,6 +102,7 @@ const Contact = () => {
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
                   <textarea 
                     id="message" 
+                    name="message"
                     rows="4" 
                     required
                     value={formData.message}
